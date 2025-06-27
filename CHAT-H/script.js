@@ -246,7 +246,7 @@ function enviarMensaje() {
 
 // Connect to OpenAI API
 async function preguntarAOpenAI() {
-  const url = "http://localhost:3001/chat";
+  const url = "https://history-chatbot-api.onrender.com";
   const headers = { "Content-Type": "application/json" };
 
   
